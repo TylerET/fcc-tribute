@@ -1,0 +1,117 @@
+/* 
+R2D2 Pallette
+Blue #052793
+Head Gray #757d80
+White/Gray #9f9f9f
+Redspot #5c1c01
+
+ */
+
+#main {
+
+}
+
+#banner-div{
+    /* background-color: #bbb8b8; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+#header-eye {
+    position: absolute;
+    margin-top: 1%;
+    display: flex;
+    background-color: black;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+
+}
+
+#header-bg {
+    /* background-color: #052793;
+    width: 225px;
+    height: 200px;
+    border-radius: 10% 10% 0 0; */
+
+    border-bottom: 200px solid #052793;
+      border-left: 25px solid transparent;
+      border-right: 25px solid transparent;
+      height: 0;
+      width: 200px;
+
+}
+
+#title {
+    margin: 0 auto 1% auto;
+    background-color: #052793;
+    display: flex;
+    justify-content: center;
+
+}
+
+h1, h2 {
+    font-size: 4em;
+    font-family: 'Star Jedi', sans-serif;
+    color: whitesmoke;
+}
+
+
+#img-div{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#image {
+    border-radius: 5%;
+    max-width: 100%;
+
+
+
+}
+
+#img-caption{
+    background-color: #052793;
+    color: whitesmoke;
+    padding: 5px;
+    margin-top: 5px;
+    border-radius: 5%;
+
+}
+
+#tribute-info {
+
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+
+}
+
+li {
+    padding: 5px;
+    margin: 15px;
+    color: whitesmoke;
+    background-color: #052793;
+    border-radius: 5%;
+
+    
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+#tribute-link {
+    text-decoration: none;
+
+}
+
+
